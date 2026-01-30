@@ -1,0 +1,8 @@
+name = "claude-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-11-12"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+# 如果您想默认连 DeepSeek，可以取消注释下面这行
+# OPENAI_BASE_URL = "https://api.deepseek.com/v1"
